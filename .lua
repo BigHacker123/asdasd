@@ -180,9 +180,9 @@ ESP_Loop = rs.RenderStepped:Connect(function()
                     v.name.Size = esp.fontsize
 
                     if esp.settings.name.displaynames then
-                        v.name.Text = i.DisplayName
+                        v.name.Text = "Player"
                     else
-                        v.name.Text = i.Name
+                        v.name.Text = "Player"
                     end
 
                     v.name.Visible = true
@@ -318,7 +318,6 @@ ESP_Loop = rs.RenderStepped:Connect(function()
                 v.weapon.Visible = false
             end
         else
-            v.name.Visible = false
             v.boxOutline.Visible = false
             v.box.Visible = false
             v.filledbox.Visible = false
