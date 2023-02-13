@@ -318,7 +318,6 @@ ESP_Loop = rs.RenderStepped:Connect(function()
                 v.weapon.Visible = false
             end
         else
-            v.boxOutline.Visible = false
             v.box.Visible = false
             v.filledbox.Visible = false
             v.healthBarOutline.Visible = false
